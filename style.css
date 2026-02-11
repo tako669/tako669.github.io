@@ -1,0 +1,60 @@
+body{
+  background-color: black;
+  color: brown;
+ 
+}
+
+
+.vidgty{
+  width: 80vw;   /* ウィンドウの横幅 */
+  height: 65vh;
+  display: block;
+  margin: 20px auto;
+
+
+
+  padding: top 0; ;
+ 
+  
+  
+
+
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+}
+
+button{
+  padding: 15px 40px;
+  font-size: 20px;
+  color: white;
+  background-color: orange;
+    border: none;
+  border-radius: 77px;
+ 
+   margin: 20px auto;
+   display: block
+ 
+  
+   
+
+
+}
+
+h2{
+  font-size: 200px;
+  text-align: center;
+  color: gold;
+    text-shadow: 5px 5px rgba(255, 0, 21, 0.445);
+  
+
+}
+
+.twitter-hashtag-button{
+  text-align: center;
+
+  
+
+}
