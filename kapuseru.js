@@ -29,16 +29,17 @@ function drawGacha() {
 
     
 
-  resultText.textContent = "";       // いったん消す
-  video.style.display = "block";     // 動画表示
-  video.play();                      // 再生
+  resultText.textContent = "";       
+  video.style.display = "block";     
+  video.play();                      
 
   setTimeout(() => {
-    video.style.display = "none";    // 動画消す
-    resultText.textContent = result; // 結果表示
-  }, 8000);  // ← 動画の秒数に合わせる
+    video.style.display = "none";   
+    resultText.textContent = result; 
+  }, 8000); 
 }
 
 const button = document.getElementById("gachaButton");
 button.addEventListener("click", drawGacha);
+
 
