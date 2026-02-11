@@ -7,7 +7,7 @@ body{
 
 .vidgty{
   width: 80vw;   /* ウィンドウの横幅 */
-  height: 65vh;
+  height: 60vh;
   display: block;
   margin: 20px auto;
 
@@ -56,5 +56,6 @@ h2{
   text-align: center;
 
   
+
 
 }
